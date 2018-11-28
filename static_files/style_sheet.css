@@ -1,0 +1,61 @@
+/*Title page*/
+#title {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 7px dotted #000;
+  box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
+  border-top: 7px dotted #000;
+  box-shadow: inset 0 3px 0 0 #000, 0 -3px 0 0 #000;    
+}
+
+/*Paragraph element for a country's data*/
+#data{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+/*Make select tag a little prettier :D*/
+#data select{
+  font-size: 15px;
+  text-align-last: center;
+  font-family: sans-serif;
+  margin-bottom: 1em;
+  padding: .25em;
+  border: 0;
+  border-bottom: 2px solid currentcolor; 
+  font-weight: bold;
+  letter-spacing: .15em;
+  border-radius: 0;
+  &:focus, &:active {
+    outline: 0;
+    border-bottom-color: red;
+  }    
+ font-weight: bold;    
+}
+
+/*Centers data and flag*/
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+/*Add a buffer to left of flag container.*/
+#flag{
+    margin-left: 2em;
+     
+}
+
+/*Image of country's flag*/
+#flag img {
+  display: block;
+  width: 300px;
+  height: 200px;
+ 
+}
