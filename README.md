@@ -18,6 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Deployment
 * Navigate to the directory where you cloned the project.
 * Run the command: node server.js
+* Fire up your browser and go to http://localhost:3000/countries.html
 
 ## Authors 
 Bryle Castro
