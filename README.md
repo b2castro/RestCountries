@@ -1,6 +1,6 @@
 # RestCountries
 
-This small application displays a country's flag, capital, languages, population and currencies based on the option the user chooses. The country data that is displayed is from REST Countries API. 
+This small application displays a country's flag, capital, languages, population and currencies based on the option the user chooses. The country data that is displayed is retrieved from REST Countries API. 
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 * Install the Node package manager (If you haven't already) by running  the command: npm install.
-* Clone the repository on your machine using the command: git clone https://github.com/b2castro/RestCountries.git
+* Clone the repository on your machine by running the command: git clone https://github.com/b2castro/RestCountries.git
 
 ## Deployment
 * Navigate to the directory where you cloned the project.
